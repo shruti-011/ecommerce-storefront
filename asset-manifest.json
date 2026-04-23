@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ecommerce-storefront/static/css/main.a4bd1439.css",
+    "main.js": "/ecommerce-storefront/static/js/main.780d0ae7.js",
+    "static/media/nike shoes.jpeg": "/ecommerce-storefront/static/media/nike shoes.4f89d361a86a19ca58fc.jpeg",
+    "static/media/oneplus.jpeg": "/ecommerce-storefront/static/media/oneplus.01040e90c948c0a3fc58.jpeg",
+    "static/media/soaf.jpeg": "/ecommerce-storefront/static/media/soaf.d97387d7848bbbaeedfe.jpeg",
+    "static/media/watch.jpeg": "/ecommerce-storefront/static/media/watch.9a62e9a14235b22640e2.jpeg",
+    "static/media/dress.jpeg": "/ecommerce-storefront/static/media/dress.cb39f4fc657758facaa2.jpeg",
+    "static/media/perfume.jpeg": "/ecommerce-storefront/static/media/perfume.42fecf8a994ed8992ee8.jpeg",
+    "static/media/jacket.jpg": "/ecommerce-storefront/static/media/jacket.143e11e1a99b5095ea45.jpg",
+    "static/media/shirt.jpeg": "/ecommerce-storefront/static/media/shirt.41e3463bdf76bdb170ad.jpeg",
+    "static/media/addidas.jpeg": "/ecommerce-storefront/static/media/addidas.a4d38dc1075893d528cc.jpeg",
+    "static/media/sofa.jpeg": "/ecommerce-storefront/static/media/sofa.e71813a07e1196b9ef61.jpeg",
+    "static/media/iphone.jpeg": "/ecommerce-storefront/static/media/iphone.5daa9b891e58977e7900.jpeg",
+    "static/media/plant.jpeg": "/ecommerce-storefront/static/media/plant.7e12f95357e0cde0754a.jpeg",
+    "static/media/samsung.jpeg": "/ecommerce-storefront/static/media/samsung.d2cbe4f0b8342c8845ad.jpeg",
+    "static/media/lamp.jpeg": "/ecommerce-storefront/static/media/lamp.632d4bda7f4988e911e5.jpeg",
+    "static/media/headphones.jpeg": "/ecommerce-storefront/static/media/headphones.86c1e6eed97b92fadc3d.jpeg",
+    "static/media/lipstic.jpeg": "/ecommerce-storefront/static/media/lipstic.68182b3e2a3820da94aa.jpeg",
+    "index.html": "/ecommerce-storefront/index.html",
+    "main.a4bd1439.css.map": "/ecommerce-storefront/static/css/main.a4bd1439.css.map",
+    "main.780d0ae7.js.map": "/ecommerce-storefront/static/js/main.780d0ae7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4bd1439.css",
+    "static/js/main.780d0ae7.js"
+  ]
+}
