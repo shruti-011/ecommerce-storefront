@@ -5,10 +5,10 @@ function HeroBanner() {
   const banners = [
     {
       id: 1,
-      type: "video",
+      type: "image",
       title: "Mega Sale 🔥",
       subtitle: "Up to 50% OFF on All Products",
-      src: "/ecommerce-storefront/videos/video1.mp4",
+      src: "/ecommerce-storefront/images/fasion.jpg",
       cta: "Shop Now",
     },
     {
@@ -27,6 +27,14 @@ function HeroBanner() {
       src: "/ecommerce-storefront/images/banner1.jpeg", // ⚠️ spelling fix
       cta: "Explore Tech",
     },
+    {
+      id: 4,
+      type: "image",
+      title: "Electronics Hub",
+      subtitle: "Smartphones & Gadgets",
+      src: "/ecommerce-storefront/images/electroni.jpg", // ⚠️ spelling fix
+      cta: "Explore Tech",
+    },
   ];
 
   const [index, setIndex] = useState(0);
@@ -40,7 +48,7 @@ function HeroBanner() {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [hovered]);
+  }, [hovered, banners.length]);
 
   const nextSlide = () => {
     setIndex((prev) => (prev + 1) % banners.length);
@@ -59,37 +67,13 @@ function HeroBanner() {
       onMouseLeave={() => setHovered(false)}
     >
       {/* 🎥 VIDEO SECTION FIX */}
-      {banner.type === "video" ? (
-        <>
-          {/* 🔥 BLUR BACKGROUND */}
-          <video
-            src={banner.src}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="absolute w-full h-full object-cover blur-2xl scale-110 opacity-60"
-          />
 
-          {/* 🎬 MAIN VIDEO */}
-          <video
-            key={banner.id}
-            src={banner.src}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="absolute w-full h-full object-contain"
-          />
-        </>
-      ) : (
-        <img
-          key={banner.id}
-          src={banner.src}
-          alt="banner"
-          className="absolute w-full h-full object-cover"
-        />
-      )}
+      <img
+        key={banner.id}
+        src={banner.src}
+        alt="banner"
+        className="absolute w-full h-full object-cover"
+      />
 
       {/* 🌑 OVERLAY */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/20" />
