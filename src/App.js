@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <BrowserRouter basename="/ecommerce-storefront">
+    <BrowserRouter>
       {/* GLOBAL HEADER (ALL PAGES) */}
       <Header />
 
