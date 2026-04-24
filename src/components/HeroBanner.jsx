@@ -8,7 +8,7 @@ function HeroBanner() {
       type: "image",
       title: "Mega Sale 🔥",
       subtitle: "Up to 50% OFF on All Products",
-      src: "/ecommerce-storefront/images/fasion.jpg",
+      src: "/ecommerce-storefront/images/fashion.jpg",
       cta: "Shop Now",
     },
     {
@@ -32,7 +32,7 @@ function HeroBanner() {
       type: "image",
       title: "Electronics Hub",
       subtitle: "Smartphones & Gadgets",
-      src: "/ecommerce-storefront/images/electroni.jpg", // ⚠️ spelling fix
+      src: "/ecommerce-storefront/images/electroniitem.png", // ⚠️ spelling fix
       cta: "Explore Tech",
     },
   ];
