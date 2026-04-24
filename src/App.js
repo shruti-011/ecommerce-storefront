@@ -7,6 +7,7 @@ import Cart from "./pages/Cart";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Checkout from "./pages/Checkout";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
 
         {/* CART */}
         <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
 
       {/* GLOBAL FOOTER (ALL PAGES) */}

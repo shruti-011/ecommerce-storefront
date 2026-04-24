@@ -1,7 +1,6 @@
 import { useSelector } from "react-redux";
 import products from "../data/products";
 import ProductCard from "../components/ProductCard";
-import Header from "../components/Header";
 import HeroBanner from "../components/HeroBanner"; // ✅ ADD THIS
 
 const Home = () => {
@@ -20,8 +19,7 @@ const Home = () => {
 
   return (
     <>
-      {/* HEADER */}
-      <Header />
+     
 
       {/* FIX HEADER SPACE */}
       <div className="pt-[70px]"></div>
