@@ -2,7 +2,6 @@
   "name": "ecommerce-storefront",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shruti-011.github.io/ecommerce-storefront",
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
     "@testing-library/dom": "^10.4.1",
