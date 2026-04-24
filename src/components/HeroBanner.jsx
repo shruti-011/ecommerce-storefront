@@ -8,7 +8,7 @@ function HeroBanner() {
       type: "image",
       title: "Mega Sale 🔥",
       subtitle: "Up to 50% OFF on All Products",
-      src: "/ecommerce-storefront/images/fashion.jpg",
+      src: "/images/fashion.jpg",
       cta: "Shop Now",
     },
     {
@@ -16,7 +16,7 @@ function HeroBanner() {
       type: "image",
       title: "Fashion Collection",
       subtitle: "Trendy Clothes & Premium Styles",
-      src: "/ecommerce-storefront/images/banner2.jpeg",
+      src: "/images/banner2.jpeg",
       cta: "Shop Fashion",
     },
     {
@@ -24,7 +24,7 @@ function HeroBanner() {
       type: "image",
       title: "Electronics Hub",
       subtitle: "Smartphones & Gadgets",
-      src: "/ecommerce-storefront/images/banner1.jpeg", // ⚠️ spelling fix
+      src: "/images/banner1.jpeg", // ⚠️ spelling fix
       cta: "Explore Tech",
     },
     {
@@ -32,7 +32,7 @@ function HeroBanner() {
       type: "image",
       title: "Electronics Hub",
       subtitle: "Smartphones & Gadgets",
-      src: "/ecommerce-storefront/images/electroniitem.png", // ⚠️ spelling fix
+      src: "/images/electroniitem.png", // ⚠️ spelling fix
       cta: "Explore Tech",
     },
   ];
