@@ -11,7 +11,7 @@ import Checkout from "./pages/Checkout";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ecommerce-storefront">
       {/* GLOBAL HEADER (ALL PAGES) */}
       <Header />
 
