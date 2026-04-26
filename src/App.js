@@ -11,7 +11,13 @@ import Checkout from "./pages/Checkout";
 
 function App() {
   return (
-    <BrowserRouter basename="/ecommerce-storefront">
+    <BrowserRouter
+      basename={
+        window.location.pathname.includes("ecommerce-storefront")
+          ? "/ecommerce-storefront"
+          : "/"
+      }
+    >
       {/* GLOBAL HEADER (ALL PAGES) */}
       <Header />
 
