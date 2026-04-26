@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecommerce-storefront/static/css/main.d9d8b16e.css",
-    "main.js": "/ecommerce-storefront/static/js/main.daf2977d.js",
+    "main.js": "/ecommerce-storefront/static/js/main.0b5286fc.js",
     "static/media/nike shoes.jpeg": "/ecommerce-storefront/static/media/nike shoes.4f89d361a86a19ca58fc.jpeg",
     "static/media/oneplus.jpeg": "/ecommerce-storefront/static/media/oneplus.01040e90c948c0a3fc58.jpeg",
     "static/media/soaf.jpeg": "/ecommerce-storefront/static/media/soaf.d97387d7848bbbaeedfe.jpeg",
@@ -20,10 +20,10 @@
     "static/media/lipstic.jpeg": "/ecommerce-storefront/static/media/lipstic.68182b3e2a3820da94aa.jpeg",
     "index.html": "/ecommerce-storefront/index.html",
     "main.d9d8b16e.css.map": "/ecommerce-storefront/static/css/main.d9d8b16e.css.map",
-    "main.daf2977d.js.map": "/ecommerce-storefront/static/js/main.daf2977d.js.map"
+    "main.0b5286fc.js.map": "/ecommerce-storefront/static/js/main.0b5286fc.js.map"
   },
   "entrypoints": [
     "static/css/main.d9d8b16e.css",
-    "static/js/main.daf2977d.js"
+    "static/js/main.0b5286fc.js"
   ]
 }
